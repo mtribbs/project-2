@@ -11,15 +11,19 @@ h1 {
     font-family: 'Italianno', cursive; font-size: 60px;
     letter-spacing: 5px;
     color: oldlace;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -10px;
 }
-ul {
+.content-list {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding-bottom: 20px;
     overflow: hidden;
+    text-align: center;
 }
 li {
     display: inline;
+    padding: 10px;
   }
   a:link {
     color: oldlace;
@@ -37,6 +41,9 @@ h3 {
 }
 img {
     max-width: 500px; height: auto;
+    border-width: 20px;
+    border-style: solid;
+    border-color:white;
 }
 footer {
     background-image: url(../images/tea-leaves.jpg);
