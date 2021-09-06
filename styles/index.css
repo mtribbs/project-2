@@ -1,6 +1,7 @@
 body {
     font-family: 'Bitter', serif;
     background-color: oldlace;
+    /*background-image: url(../images/tea-plants.jpg); background-size: cover;*/
 }
 header {
     background-image: url(../images/tea-leaves.jpg);
@@ -33,4 +34,12 @@ h2 {
 h3 {
     font-family: 'Italianno', cursive; font-size: 40px;
     letter-spacing: 2px;
+}
+img {
+    max-width: 500px; height: auto;
+}
+footer {
+    background-image: url(../images/tea-leaves.jpg);
+    background-size: cover;
+    color: oldlace;
 }
