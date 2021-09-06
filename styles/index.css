@@ -1,3 +1,36 @@
+body {
+    font-family: 'Bitter', serif;
+    background-color: oldlace;
+}
+header {
+    background-image: url(../images/tea-leaves.jpg);
+    background-size: cover;
+}
 h1 {
-    font-family: "Brush Script MT", cursive; font-size: 60px;
+    font-family: 'Italianno', cursive; font-size: 60px;
+    letter-spacing: 5px;
+    color: oldlace;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline;
+  }
+  a:link {
+    color: oldlace;
+  }
+  a:visited {
+      color:lightblue;
+  }
+h2 {
+    font-family: 'Italianno', cursive; font-size: 40px;
+    letter-spacing: 2px;
+}
+h3 {
+    font-family: 'Italianno', cursive; font-size: 40px;
+    letter-spacing: 2px;
 }
