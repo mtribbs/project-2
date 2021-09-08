@@ -8,7 +8,8 @@ header {
     background-size: cover;
 }
 h1 {
-    font-family: 'Italianno', cursive; font-size: 60px;
+    font-family: 'Italianno', cursive; 
+    font-size: 60px;
     letter-spacing: 5px;
     color: oldlace;
     text-align: center;
@@ -32,15 +33,18 @@ li {
       color:lightblue;
   }
 h2 {
-    font-family: 'Italianno', cursive; font-size: 40px;
+    font-family: 'Italianno', cursive; 
+    font-size: 40px;
     letter-spacing: 2px;
 }
 h3 {
-    font-family: 'Italianno', cursive; font-size: 40px;
+    font-family: 'Italianno', cursive; 
+    font-size: 40px;
     letter-spacing: 2px;
 }
 img {
-    max-width: 500px; height: auto;
+    max-width: 500px; 
+    height: auto;
     border-width: 20px;
     border-style: solid;
     border-color:white;
