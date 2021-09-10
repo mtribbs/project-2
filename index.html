@@ -30,50 +30,46 @@
         </nav>
     </header>
     <main>
-        <section id="tea">
-            <h3>What is tea?</h3>
-            <img src="/images/tea-plants.jpg" alt="Tea plantation">
-                <p>Tea is a hot beverage. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia leo malesuada diam mollis eleifend. Aenean luctus, arcu vel lobortis tincidunt, 
-                    nulla ipsum porta turpis, et aliquet ipsum massa et purus. Nunc rutrum sed lorem at facilisis. Donec a lorem metus. Praesent sollicitudin leo sit amet odio rutrum, 
-                    in pellentesque dolor sollicitudin. Morbi sed lacinia ligula, ac molestie lorem. Etiam in consequat ligula. Etiam sollicitudin imperdiet elit at bibendum. 
-                    Ut convallis dolor et ex commodo placerat. </p>
-        </section>
-        <section id="black-tea">
-            <h3>Black tea</h3>
-            <img src="/images/tea-books.jpg" alt="Cup of tea and open books on table">
-               <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nec felis eu urna commodo vestibulum. Etiam semper enim ligula, sit amet fermentum sapien consequat id. 
-                   Mauris a pellentesque quam, id viverra nulla. Cras sed massa id mi tincidunt tempor quis vitae risus. Curabitur ut sem eget diam dignissim congue a ut tortor. 
-                   Donec vitae vehicula nisl, nec rhoncus leo. Donec aliquam lacinia lacus quis placerat. Aenean augue felis, cursus eu nisi eget, bibendum commodo eros. Morbi vulputate, 
-                   purus in dictum bibendum, libero quam auctor nulla, ac finibus turpis tortor eget odio. Nulla semper convallis egestas.</p> 
-        </section>
-        <section id="green-tea">
-            <h3>Green tea</h3>
-            <img src="/images/tea-flowers.jpg" alt="Cup of tea with flowers">
-                <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nec felis eu urna commodo vestibulum. Etiam semper enim ligula, sit amet fermentum sapien consequat id. 
+        <div class="container">
+            <div class="card tea" id="tea">
+                <img class="card__img" src="/images/tea-plants.jpg" alt="Tea plantation">
+                <h3 class="card__title">What is tea?</h3>
+                    <p class="card__info">Tea is a hot beverage. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia leo malesuada diam mollis eleifend. Aenean luctus, arcu vel lobortis tincidunt, nulla ipsum porta turpis, et aliquet ipsum massa et purus. Nunc rutrum sed lorem at facilisis. Donec a lorem metus. Praesent sollicitudin leo sit amet odio rutrum, in pellentesque dolor sollicitudin. Morbi sed lacinia ligula, ac molestie lorem. Etiam in consequat ligula. Etiam sollicitudin imperdiet elit at bibendum. Ut convallis dolor et ex commodo placerat. </p>
+            </div>
+            <div class="card black" id="black-tea">
+                <img class="card__img" src="/images/tea-books.jpg" alt="Cup of tea and open books on table">
+                <h3 class="card__title">Black tea</h3>
+                <p class="card__info">Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nec felis eu urna commodo vestibulum. Etiam semper enim ligula, sit amet fermentum sapien consequat id. 
                     Mauris a pellentesque quam, id viverra nulla. Cras sed massa id mi tincidunt tempor quis vitae risus. Curabitur ut sem eget diam dignissim congue a ut tortor. 
                     Donec vitae vehicula nisl, nec rhoncus leo. Donec aliquam lacinia lacus quis placerat. Aenean augue felis, cursus eu nisi eget, bibendum commodo eros. Morbi vulputate, 
-                    purus in dictum bibendum, libero quam auctor nulla, ac finibus turpis tortor eget odio. Nulla semper convallis egestas.</p>
-        </section>
-        <section id="rooibos">
-            <h3>Rooibos</h3>
-            <img src="/images/rooibos.jpg" alt="Rooibos tea leaves">
-                <p>Aliquam sit amet diam in lorem auctor mattis. Aliquam id tincidunt odio. In egestas congue urna, at fermentum metus posuere vitae. In hendrerit cursus urna id suscipit. 
+                    purus in dictum bibendum, libero quam auctor nulla, ac finibus turpis tortor eget odio. Nulla semper convallis egestas.</p> 
+            </div>
+            <div class="card green" id="green-tea">
+                <img class="card__img" src="/images/tea-flowers.jpg" alt="Cup of tea with flowers">
+                <h3 class="card__title">Green tea</h3>
+                    <p class="card__info">Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nec felis eu urna commodo vestibulum. Etiam semper enim ligula, sit amet fermentum sapien consequat id. Mauris a pellentesque quam, id viverra nulla. Cras sed massa id mi tincidunt tempor quis vitae risus. Curabitur ut sem eget diam dignissim congue a ut tortor. Donec vitae vehicula nisl, nec rhoncus leo. Donec aliquam lacinia lacus quis placerat. Aenean augue felis, cursus eu nisi eget, bibendum commodo eros. Morbi vulputate, purus in dictum bibendum, libero quam auctor nulla, ac finibus turpis tortor eget odio. Nulla semper convallis egestas.</p>
+            </div>
+            <div class="card rooibos" id="rooibos">
+                <img class="card__img" src="/images/rooibos.jpg" alt="Rooibos tea leaves">
+                <h3 class="card__title">Rooibos</h3>
+                    <p class="card__info">Aliquam sit amet diam in lorem auctor mattis. Aliquam id tincidunt odio. In egestas congue urna, at fermentum metus posuere vitae. In hendrerit cursus urna id suscipit. Praesent pretium dolor eget semper dictum. Aliquam eget metus aliquam, pellentesque elit vitae, venenatis nisi. Fusce sit amet erat ex.</p>
+            </div>
+            <div class="card herbal" id="herbal-tea">
+                <img src="/images/herbal-tea.jpg" alt="Cup filled with dried herbs">
+                <h3>Herbal tea</h3>
+                    <p class="card__info">Aliquam sit amet diam in lorem auctor mattis. Aliquam id tincidunt odio. In egestas congue urna, at fermentum metus posuere vitae. In hendrerit cursus urna id suscipit. 
                     Praesent pretium dolor eget semper dictum. Aliquam eget metus aliquam, pellentesque elit vitae, venenatis nisi. Fusce sit amet erat ex.</p>
-        </section>
-        <section id="herbal-tea">
-            <h3>Herbal tea</h3>
-            <img src="/images/herbal-tea.jpg" alt="Cup filled with dried herbs">
-            <p>Aliquam sit amet diam in lorem auctor mattis. Aliquam id tincidunt odio. In egestas congue urna, at fermentum metus posuere vitae. In hendrerit cursus urna id suscipit. 
-                Praesent pretium dolor eget semper dictum. Aliquam eget metus aliquam, pellentesque elit vitae, venenatis nisi. Fusce sit amet erat ex.</p>
-        </section>
-        <section id="preparing">
-           <h3>Preparing tea</h3> 
-           <img src="/images/tea-bags.jpg" alt="Tea bags">
-           <p>Donec consectetur urna vitae sagittis pharetra. Nunc venenatis tincidunt metus vel bibendum. Ut tincidunt, nulla et accumsan fermentum, augue eros mollis nisi, quis posuere metus libero nec dui. 
-               Praesent et maximus diam. Nulla facilisi. Nam imperdiet consectetur eros aliquam interdum. Aliquam suscipit vehicula justo, nec fringilla eros viverra et. Duis mi tellus, mattis at velit vitae, finibus mollis massa. 
-               Phasellus a imperdiet tortor. Etiam eget sodales enim. In non diam non nisl vulputate maximus sed a enim. Aliquam porttitor accumsan efficitur. Ut posuere dui quis erat porttitor, semper sodales quam iaculis. 
-               Cras vel dictum dui. Sed cursus massa eu aliquet blandit. In dictum sagittis odio, et pulvinar libero finibus nec.</p>
-        </section>
+            </div>   
+            <div class="card preparing" id="preparing">
+                <img class="card__image" src="/images/tea-bags.jpg" alt="Tea bags">
+                <h3 class="card__title">Preparing tea</h3> 
+                    <p class="card__info">Donec consectetur urna vitae sagittis pharetra. Nunc venenatis tincidunt metus vel bibendum. Ut tincidunt, nulla et accumsan fermentum, augue eros mollis nisi, quis posuere metus libero nec dui. 
+                    Praesent et maximus diam. Nulla facilisi. Nam imperdiet consectetur eros aliquam interdum. Aliquam suscipit vehicula justo, nec fringilla eros viverra et. Duis mi tellus, mattis at velit vitae, finibus mollis massa. 
+                    Phasellus a imperdiet tortor. Etiam eget sodales enim. In non diam non nisl vulputate maximus sed a enim. Aliquam porttitor accumsan efficitur. Ut posuere dui quis erat porttitor, semper sodales quam iaculis. 
+                    Cras vel dictum dui. Sed cursus massa eu aliquet blandit. In dictum sagittis odio, et pulvinar libero finibus nec.</p>
+            </div>
+        </div>
+
     </main>
     <footer>
         <p>About Breakfast Blend</p>
